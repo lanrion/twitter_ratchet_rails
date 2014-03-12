@@ -1,0 +1,1 @@
+//= require twitter_ratchet_rails/ratchet

@@ -82,6 +82,15 @@ for example:
 </html>
 ```
 
+# Run Test dummy
+
+```bash
+cd test/dummy
+bundle install
+rake db:migrate
+rails server
+```
+
 ### Example
 
 http://goratchet.com/examples

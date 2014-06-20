@@ -36,7 +36,7 @@ Current version dependents on [Ratchet v2.0.1](http://goratchet.com)
 ### Make sure wrap all non-bar HTML in the `.content div` (this is actually what scrolls), See Wiki: http://goratchet.com/components/
   Ruby on Rails Example:
 
-  ```erb
+  ```html
 
   <!DOCTYPE html>
   <html>

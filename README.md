@@ -1,5 +1,7 @@
 ## TwitterRatchetRails
 
+[![Gem Version](https://badge.fury.io/rb/twitter_ratchet_rails.svg)](http://badge.fury.io/rb/twitter_ratchet_rails)
+
 This project rocks and uses MIT-LICENSE.
 
 Current version dependents on [Ratchet v2.0.2](http://goratchet.com)

@@ -11,3 +11,4 @@
 // about supported directives.
 //
 //= require_tree .
+//= require twitter_ratchet_rails

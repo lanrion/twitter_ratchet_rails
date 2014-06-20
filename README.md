@@ -2,7 +2,7 @@
 
 This project rocks and uses MIT-LICENSE.
 
-Current version dependents on [Ratchet v2.0.1](http://goratchet.com)
+Current version dependents on [Ratchet v2.0.2](http://goratchet.com)
 
 ## Install
 

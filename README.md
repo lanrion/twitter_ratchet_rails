@@ -36,21 +36,19 @@ Current version dependents on [Ratchet v2.0.1](http://goratchet.com)
 ### Make sure wrap all non-bar HTML in the `.content div` (this is actually what scrolls), See Wiki: http://goratchet.com/components/
   Ruby on Rails Example:
 
-  ```html
+  ```erb
 
   <!DOCTYPE html>
   <html>
     <head>
-      <head>
-        <meta charset="utf-8">
-        <title>微五</title>
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <%= csrf_meta_tags %>
-        <%= stylesheet_link_tag "wap", media: "all", "data-turbolinks-track" => true %>
-        <%= javascript_include_tag "wap", "data-turbolinks-track" => true %>
-    </head>
+      <meta charset="utf-8">
+      <title>微五</title>
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <%= csrf_meta_tags %>
+      <%= stylesheet_link_tag "wap", media: "all", "data-turbolinks-track" => true %>
+      <%= javascript_include_tag "wap", "data-turbolinks-track" => true %>
     </head>
     <body>
        <header class="bar bar-nav">
@@ -61,7 +59,6 @@ Current version dependents on [Ratchet v2.0.1](http://goratchet.com)
         <%= yield %>
       </div>
 
-      <%= render "wap/plug_menus/template_#{@site_template_setting.menu}"%>
     </body>
   </html>
 
